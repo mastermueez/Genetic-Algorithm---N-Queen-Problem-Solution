@@ -5,6 +5,7 @@ The n queen problem requires one to find possible arrangements of n queens on an
 * Chromosome: a valid arrangement of n queens on an n x n chessboard
 * Gene: any one position in the chessboard
 * Population: a bunch of chromosomes
+* Fitness value: number of non attacking pairs
 
 ## Samples
 The following contains a few possible arrangements of 8 queens in an 8 x 8 standard chessboard where there are no queens in an attacking configuration:
@@ -18,3 +19,6 @@ The following contains a few possible arrangements of 8 queens in an 8 x 8 stand
 * [7, 5, 3, 1, 6, 8, 2, 4]
 * [5, 2, 4, 7, 3, 8, 6, 1]
 * [6, 3, 5, 7, 1, 4, 2, 8]]
+
+## Code
+Running get getFitnessVal(chromosome) directly on an object of the class will return the number of non-attacking pairs. But note that the chromosomeLength variable used to initialize the class will also have to be changed accordingly.

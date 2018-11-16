@@ -1,4 +1,10 @@
+#Description
 The n queen problem requires one to find possible arrangements of n queens on an n x n chessboard such that no queens in attacking pairs.
+
+#Terminology
+* Chromosome: a valid arrangement of n queens on an n x n chessboard
+* Gene: any one position in the chessboard
+* Population: a bunch of chromosomes
 
 The following contains a few possible arrangements of 8 queens in an 8 x 8 standard chessboard where there are no queens in an attacking configuration:
 * [6, 1, 5, 2, 8, 3, 7, 4]

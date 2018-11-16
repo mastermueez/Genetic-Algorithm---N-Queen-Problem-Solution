@@ -229,7 +229,7 @@ class GeneticAlgorithm():
             generationCount += 1
 
 if __name__ == "__main__":
-    chromosomeLength = 5
+    chromosomeLength = 8
     populationSize = 100
     geneticAlgoObj = GeneticAlgorithm(chromosomeLength, populationSize)
     geneticAlgoObj.getChromosomeWithMaxFitness()

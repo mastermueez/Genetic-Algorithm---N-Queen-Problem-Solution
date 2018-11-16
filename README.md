@@ -1,5 +1,5 @@
 ## Description
-The n queen problem requires one to find possible arrangements of n queens in an n x n chessboard such that no queens are in attacking pairs. The code here finds such an arrangement when executed. This [video](https://www.youtube.com/watch?v=qt85_CinKwo) explains the problem well.
+The n queen problem requires one to find possible arrangements of n queens in on n x n chessboard such that no queens are in attacking pairs. The code here finds such an arrangement when executed. This [video](https://www.youtube.com/watch?v=qt85_CinKwo) explains the problem well.
 
 ## Terminology
 * Chromosome: a valid arrangement of n queens on an n x n chessboard

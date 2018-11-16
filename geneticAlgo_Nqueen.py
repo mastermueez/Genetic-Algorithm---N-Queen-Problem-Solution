@@ -234,4 +234,3 @@ if __name__ == "__main__":
     populationSize = 100
     geneticAlgoObj = GeneticAlgorithm(chromosomeLength, populationSize)
     geneticAlgoObj.getChromosomeWithMaxFitness()
-    #print(geneticAlgoObj.fitness([6, 3, 5, 7, 1, 4, 2, 8])) #to print fitness val of any chromosome

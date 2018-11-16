@@ -21,4 +21,4 @@ The following contains a few possible arrangements of 8 queens in an 8 x 8 stand
 * [6, 3, 5, 7, 1, 4, 2, 8]]
 
 ## Code
-Running get **getFitnessVal(chromosome)** directly on an object of the class will return the number of non-attacking pairs. But note that the **chromosomeLength** variable used to initialize the class will also have to be changed accordingly.
+Running get getFitnessVal(chromosome) directly on an object of the class will return the number of non-attacking pairs. But note that the **chromosomeLength** variable used to initialize the class will also have to be changed accordingly.

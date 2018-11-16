@@ -26,4 +26,4 @@ The variables **chromosomeLength** in the main method determines the dimensions 
 Running get getFitnessVal(chromosome) directly on an object of the class will return the number of non-attacking pairs. But note that the **chromosomeLength** variable used to initialize the class will also have to be changed accordingly.
 
 ## Personal Thought
-Yes, the getFitnessVal function looks really messy at the moment, but I'll try to remove all the redundant code once I have abundant time.
+Yes, the getFitnessVal() function looks really messy at the moment, but I'll try to remove all the redundant code once I have abundant time.

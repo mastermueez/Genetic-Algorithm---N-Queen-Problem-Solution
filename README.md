@@ -23,7 +23,7 @@ The following contains a few possible arrangements of 8 queens in an 8 x 8 stand
 ## Code
 The variable **chromosomeLength** in the main method determines the dimensions of the chessboard. If the value is 8, the code tries to find an arrangement of 8 queens such that there are 28 non attacking pairs in an 8 x 8 standard chessboard. Change it as you please.
 
-Running get getFitnessVal(chromosome) directly on an object of the class will return the number of non-attacking pairs. But note that the **chromosomeLength** variable used to initialize the class will also have to be changed accordingly.
+Running getFitnessVal(chromosome) directly on an object of the class will return the number of non-attacking pairs. But note that the **chromosomeLength** variable used to initialize the class will also have to be changed accordingly.
 
 ## Personal Thought
 Yes, the getFitnessVal() function looks really messy at the moment, but I'll try to remove all the redundant code once I have abundant time.

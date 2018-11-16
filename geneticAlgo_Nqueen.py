@@ -157,7 +157,7 @@ class GeneticAlgorithm():
     def getFitnessProbability(self, chromosome):
         return self.getFitnessVal(chromosome)/self.maxFitness
 
-    def getRandomChromosome(self, population, probabilities):
+    def getRandomChromosomeBasedOnCorrespondingProb(self, population, probabilities):
         populationWithProbabilty = zip(population, probabilities)
         probSum = 0
         for chromosome, prob in populationWithProbabilty:
@@ -168,7 +168,6 @@ class GeneticAlgorithm():
             if upto + prob >= r:
                 return chromosome
             upto += prob
-        assert False, "Shouldn't get here"
             
     def performCrossOver(self, x, y):
         n = len(x)
@@ -197,8 +196,8 @@ class GeneticAlgorithm():
         #Creat new population from old population
         for i in range(len(population)):
             #Pick two chromosomes
-            x = self.getRandomChromosome(population, probabilities)
-            y = self.getRandomChromosome(population, probabilities)
+            x = self.getRandomChromosomeBasedOnCorrespondingProb(population, probabilities)
+            y = self.getRandomChromosomeBasedOnCorrespondingProb(population, probabilities)
             #Create new chromosome by combining the previous two
             child = self.performCrossOver(x, y)
             #Mutate (or don't do anything at all) a gene from that new chromosome randomly

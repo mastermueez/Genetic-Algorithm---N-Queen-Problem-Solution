@@ -1,3 +1,5 @@
+8 queens is a classic computer science problem. To find possible arrangements of 8 queens on a standard 8 x 8 chessboard such that no queens every end up in an attacking configuration.
+
 The following contains chromosomes of length 8 with max fitness of 28
 [6, 1, 5, 2, 8, 3, 7, 4]
 [5, 2, 6, 1, 7, 4, 8, 3]

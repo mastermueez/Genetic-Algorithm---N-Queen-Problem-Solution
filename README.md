@@ -22,4 +22,5 @@ The following contains a few possible arrangements of 8 queens in an 8 x 8 stand
 
 ## Code
 The variables **chromosomeLength** and **populationSize** can be changed to find arrangements of different chessboards at different paces.
+
 Running get getFitnessVal(chromosome) directly on an object of the class will return the number of non-attacking pairs. But note that the **chromosomeLength** variable used to initialize the class will also have to be changed accordingly.
